@@ -10,7 +10,7 @@ population = make_population(cfg)
 # visualize initial behavior
 visualize_population(population[:10], cfg)
 
-for gen in range(20):
+for gen in range(cfg.GENERATIONS):
     population, best, mean, alive = evolve(population, cfg)
     print(
         f"Gen {gen:02d} | "

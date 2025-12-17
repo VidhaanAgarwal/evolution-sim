@@ -12,6 +12,7 @@ class Config:
     # ---------- Population ----------
     POP_SIZE: int = 50
     ELITE_FRAC: float = 0.05
+    GENERATIONS: int = 20
 
     # ---------- Agent energy ----------
     START_ENERGY: float = 3.0
